@@ -1,0 +1,7 @@
+|
+#| this is 
+a comment |#
+#this better end with the end of the file
+# HELLO THERE!
+# MY NAME IS MARK
+#| this commen|t shouldn't work 

@@ -1,0 +1,1 @@
+Cannot create directory /Users/marcus/Desktop/School/discretestOfStructures/projectDiscrete/Project1_Starter_Code/cmake-build-debug-hemote-rost: `mkdir "/Users"` failed with exit code 1: stdout='', stderr='mkdir: cannot create directory '/Users': Permission denied'
