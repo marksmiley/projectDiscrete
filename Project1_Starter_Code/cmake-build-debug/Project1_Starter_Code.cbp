@@ -8,195 +8,221 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug"/>
+				<Option working_dir="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug"/>
+				<Option working_dir="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug"/>
+				<Option working_dir="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="projectOne">
-				<Option output="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/projectOne" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug"/>
+				<Option output="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/projectOne" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectOne"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectOne"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="projectOne/fast">
-				<Option output="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/projectOne" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug"/>
+				<Option output="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/projectOne" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectOne/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectOne/fast"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/AddAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/AddAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/AddAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/AddAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/Automaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Automaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/ColonAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/ColonAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/ColonDashAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonDashAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/ColonDashAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonDashAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/CommaAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommaAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/CommaAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommaAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/CommentAutomata.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommentAutomata.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/CommentAutomata.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommentAutomata.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/Facts.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/DatalogProgram.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/Facts.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/DatalogProgram.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/IDAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Facts.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/IDAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Facts.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/Left_ParenAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/IDAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/Left_ParenAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/IDAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/Lexer.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Left_ParenAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/Lexer.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Left_ParenAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/MultiplyAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Lexer.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/MultiplyAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Lexer.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/PeriodAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/MultiplyAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/PeriodAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/MultiplyAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/Q_MarkAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Parameter.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/Q_MarkAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Parameter.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/QueriesAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/PeriodAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/QueriesAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/PeriodAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/Right_ParenAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Predicate.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/Right_ParenAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Predicate.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/RulesAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Q_MarkAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/RulesAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Q_MarkAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/SchemesAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/QueriesAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/SchemesAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/QueriesAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/StringAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Right_ParenAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/StringAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Right_ParenAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/Token.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Rule.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/Token.h">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Rule.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/main.cpp">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/RulesAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/Users/marcus/Desktop/School/discretestOfStructures/Project1_Starter_Code/CMakeLists.txt">
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/RulesAutomaton.h">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/SchemesAutomaton.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/SchemesAutomaton.h">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/StringAutomaton.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/StringAutomaton.h">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Token.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Token.h">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/main.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

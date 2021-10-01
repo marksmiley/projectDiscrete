@@ -82,11 +82,6 @@ void Lexer::Run(std::string& input) {
                 }
             }
 
-            /*if maxRead > 0 {
-                set newToken to maxAutomaton.CreateToken(...)
-                increment lineNumber by maxAutomaton.NewLinesRead()
-                add newToken to collection of all tokens
-            }*/ // pseudocode for if portion of max function
             if (maxRead > 0 && !isdigit(input[0])) {
 
                 Token *newToken = maxAutonama->CreateToken(input.substr(0, maxRead), lineNumber);
@@ -97,12 +92,6 @@ void Lexer::Run(std::string& input) {
                 }
             }
 
-                /*else {
-                    set maxRead to 1
-                    set newToken to a  new undefined Token
-                            (with first character of input)
-                    add newToken to collection of all tokens
-                }*/ // pseudo code for else portion of max function
             else if (input.size() > 0){
                 maxRead = 1;
                 tokens.push_back(new Token(TokenType::UNDEFINED, input.substr(0, 1), lineNumber));
@@ -114,26 +103,6 @@ void Lexer::Run(std::string& input) {
         tokens.push_back(new Token (TokenType::ENDOFFILE, "", lineNumber));
 
         //std::cout << "Total Tokens = " << tokens.size();
-        /*
-
-        set lineNumber to 1
-        // While there are more characters to tokenize
-        loop while input.size() > 0 {
-            set maxRead to 0
-            set maxAutomaton to the first automaton in automata
-
-            // TODO: you need to handle whitespace in between tokens
-
-
-
-            // No automaton accepted input
-            // Create single character undefined token
-
-            // Update `input` by removing characters read to create Token
-            remove maxRead characters from input
-        }
-        add end of file token to all tokens
-        */
     }
 
 std::string Lexer::ToString() {

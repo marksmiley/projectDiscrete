@@ -8,10 +8,9 @@ class Predicate {
 public:
     Predicate(std::string PredID, std::vector<Parameter> predParameters);
     Predicate(){}
-    //create a get
+    std::string ToString(Predicate currPredicate);
     std::string getInitId();
-
-    void setInitId(const std::string &initId);
+    std::vector<Parameter> getParameters();
 
 private:
     std::string initID;

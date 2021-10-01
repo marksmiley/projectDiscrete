@@ -43,8 +43,8 @@ int main(int argc, char** argv) {
         std::cout << "Failure!" << std::endl << error->ToString();
         return 0;
     }
-    std::cout << "Success!";
-
+    std::cout << "Success!" << std::endl;
+    std::cout << nowThis.ToString();
     delete lexer;
     return 0;
 }

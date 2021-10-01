@@ -10,8 +10,10 @@ Facts:
 
 Rules:
   HasSameAddress(X,Y) :- snap(A,X,B,C),snap(D,Y,B,E).
+  RuleNumberTwo(uhm,ok) :- owey(a,b,c,d),mark(e,f,g,h).
 
 Queries:
   HasSameAddress('Snoopy',Who)?
+  QueryNumberTwo('isthis',working)?
 
 
