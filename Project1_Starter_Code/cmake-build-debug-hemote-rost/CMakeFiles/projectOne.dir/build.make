@@ -213,18 +213,18 @@ CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/SchemesAutomaton.cpp -o CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.s
 
-CMakeFiles/projectOne.dir/Facts.cpp.o: CMakeFiles/projectOne.dir/flags.make
-CMakeFiles/projectOne.dir/Facts.cpp.o: ../Facts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/projectOne.dir/Facts.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Facts.cpp.o -c /users/guest/s/smiley81/Proj1/Facts.cpp
+CMakeFiles/projectOne.dir/FactsAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
+CMakeFiles/projectOne.dir/FactsAutomaton.cpp.o: ../FactsAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/projectOne.dir/FactsAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/FactsAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/FactsAutomaton.cpp
 
-CMakeFiles/projectOne.dir/Facts.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Facts.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Facts.cpp > CMakeFiles/projectOne.dir/Facts.cpp.i
+CMakeFiles/projectOne.dir/FactsAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/FactsAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/FactsAutomaton.cpp > CMakeFiles/projectOne.dir/FactsAutomaton.cpp.i
 
-CMakeFiles/projectOne.dir/Facts.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Facts.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Facts.cpp -o CMakeFiles/projectOne.dir/Facts.cpp.s
+CMakeFiles/projectOne.dir/FactsAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/FactsAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/FactsAutomaton.cpp -o CMakeFiles/projectOne.dir/FactsAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/RulesAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/RulesAutomaton.cpp.o: ../RulesAutomaton.cpp
@@ -356,6 +356,71 @@ CMakeFiles/projectOne.dir/Rule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Rule.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Rule.cpp -o CMakeFiles/projectOne.dir/Rule.cpp.s
 
+CMakeFiles/projectOne.dir/Database.cpp.o: CMakeFiles/projectOne.dir/flags.make
+CMakeFiles/projectOne.dir/Database.cpp.o: ../Database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/projectOne.dir/Database.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Database.cpp.o -c /users/guest/s/smiley81/Proj1/Database.cpp
+
+CMakeFiles/projectOne.dir/Database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Database.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Database.cpp > CMakeFiles/projectOne.dir/Database.cpp.i
+
+CMakeFiles/projectOne.dir/Database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Database.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Database.cpp -o CMakeFiles/projectOne.dir/Database.cpp.s
+
+CMakeFiles/projectOne.dir/Relation.cpp.o: CMakeFiles/projectOne.dir/flags.make
+CMakeFiles/projectOne.dir/Relation.cpp.o: ../Relation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/projectOne.dir/Relation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Relation.cpp.o -c /users/guest/s/smiley81/Proj1/Relation.cpp
+
+CMakeFiles/projectOne.dir/Relation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Relation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Relation.cpp > CMakeFiles/projectOne.dir/Relation.cpp.i
+
+CMakeFiles/projectOne.dir/Relation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Relation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Relation.cpp -o CMakeFiles/projectOne.dir/Relation.cpp.s
+
+CMakeFiles/projectOne.dir/Header.cpp.o: CMakeFiles/projectOne.dir/flags.make
+CMakeFiles/projectOne.dir/Header.cpp.o: ../Header.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/projectOne.dir/Header.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Header.cpp.o -c /users/guest/s/smiley81/Proj1/Header.cpp
+
+CMakeFiles/projectOne.dir/Header.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Header.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Header.cpp > CMakeFiles/projectOne.dir/Header.cpp.i
+
+CMakeFiles/projectOne.dir/Header.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Header.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Header.cpp -o CMakeFiles/projectOne.dir/Header.cpp.s
+
+CMakeFiles/projectOne.dir/Tuple.cpp.o: CMakeFiles/projectOne.dir/flags.make
+CMakeFiles/projectOne.dir/Tuple.cpp.o: ../Tuple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/projectOne.dir/Tuple.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Tuple.cpp.o -c /users/guest/s/smiley81/Proj1/Tuple.cpp
+
+CMakeFiles/projectOne.dir/Tuple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Tuple.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Tuple.cpp > CMakeFiles/projectOne.dir/Tuple.cpp.i
+
+CMakeFiles/projectOne.dir/Tuple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Tuple.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Tuple.cpp -o CMakeFiles/projectOne.dir/Tuple.cpp.s
+
+CMakeFiles/projectOne.dir/Interpreter.cpp.o: CMakeFiles/projectOne.dir/flags.make
+CMakeFiles/projectOne.dir/Interpreter.cpp.o: ../Interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/projectOne.dir/Interpreter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Interpreter.cpp.o -c /users/guest/s/smiley81/Proj1/Interpreter.cpp
+
+CMakeFiles/projectOne.dir/Interpreter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Interpreter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Interpreter.cpp > CMakeFiles/projectOne.dir/Interpreter.cpp.i
+
+CMakeFiles/projectOne.dir/Interpreter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Interpreter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Interpreter.cpp -o CMakeFiles/projectOne.dir/Interpreter.cpp.s
+
 # Object files for target projectOne
 projectOne_OBJECTS = \
 "CMakeFiles/projectOne.dir/ColonAutomaton.cpp.o" \
@@ -370,7 +435,7 @@ projectOne_OBJECTS = \
 "CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.o" \
 "CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.o" \
 "CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.o" \
-"CMakeFiles/projectOne.dir/Facts.cpp.o" \
+"CMakeFiles/projectOne.dir/FactsAutomaton.cpp.o" \
 "CMakeFiles/projectOne.dir/RulesAutomaton.cpp.o" \
 "CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o" \
 "CMakeFiles/projectOne.dir/IDAutomaton.cpp.o" \
@@ -380,7 +445,12 @@ projectOne_OBJECTS = \
 "CMakeFiles/projectOne.dir/DatalogProgram.cpp.o" \
 "CMakeFiles/projectOne.dir/Predicate.cpp.o" \
 "CMakeFiles/projectOne.dir/Parameter.cpp.o" \
-"CMakeFiles/projectOne.dir/Rule.cpp.o"
+"CMakeFiles/projectOne.dir/Rule.cpp.o" \
+"CMakeFiles/projectOne.dir/Database.cpp.o" \
+"CMakeFiles/projectOne.dir/Relation.cpp.o" \
+"CMakeFiles/projectOne.dir/Header.cpp.o" \
+"CMakeFiles/projectOne.dir/Tuple.cpp.o" \
+"CMakeFiles/projectOne.dir/Interpreter.cpp.o"
 
 # External object files for target projectOne
 projectOne_EXTERNAL_OBJECTS =
@@ -397,7 +467,7 @@ projectOne: CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.o
 projectOne: CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.o
 projectOne: CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.o
 projectOne: CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.o
-projectOne: CMakeFiles/projectOne.dir/Facts.cpp.o
+projectOne: CMakeFiles/projectOne.dir/FactsAutomaton.cpp.o
 projectOne: CMakeFiles/projectOne.dir/RulesAutomaton.cpp.o
 projectOne: CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o
 projectOne: CMakeFiles/projectOne.dir/IDAutomaton.cpp.o
@@ -408,9 +478,14 @@ projectOne: CMakeFiles/projectOne.dir/DatalogProgram.cpp.o
 projectOne: CMakeFiles/projectOne.dir/Predicate.cpp.o
 projectOne: CMakeFiles/projectOne.dir/Parameter.cpp.o
 projectOne: CMakeFiles/projectOne.dir/Rule.cpp.o
+projectOne: CMakeFiles/projectOne.dir/Database.cpp.o
+projectOne: CMakeFiles/projectOne.dir/Relation.cpp.o
+projectOne: CMakeFiles/projectOne.dir/Header.cpp.o
+projectOne: CMakeFiles/projectOne.dir/Tuple.cpp.o
+projectOne: CMakeFiles/projectOne.dir/Interpreter.cpp.o
 projectOne: CMakeFiles/projectOne.dir/build.make
 projectOne: CMakeFiles/projectOne.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable projectOne"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable projectOne"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectOne.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

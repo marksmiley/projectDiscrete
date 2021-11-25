@@ -117,22 +117,40 @@
 		<Unit filename="/users/guest/s/smiley81/Proj1/CommentAutomata.h">
 			<Option target="projectOne"/>
 		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Database.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Database.h">
+			<Option target="projectOne"/>
+		</Unit>
 		<Unit filename="/users/guest/s/smiley81/Proj1/DatalogProgram.cpp">
 			<Option target="projectOne"/>
 		</Unit>
 		<Unit filename="/users/guest/s/smiley81/Proj1/DatalogProgram.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/Proj1/Facts.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/FactsAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/Proj1/Facts.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/FactsAutomaton.h">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Header.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Header.h">
 			<Option target="projectOne"/>
 		</Unit>
 		<Unit filename="/users/guest/s/smiley81/Proj1/IDAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
 		<Unit filename="/users/guest/s/smiley81/Proj1/IDAutomaton.h">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Interpreter.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Interpreter.h">
 			<Option target="projectOne"/>
 		</Unit>
 		<Unit filename="/users/guest/s/smiley81/Proj1/Left_ParenAutomaton.cpp">
@@ -183,6 +201,12 @@
 		<Unit filename="/users/guest/s/smiley81/Proj1/QueriesAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Relation.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Relation.h">
+			<Option target="projectOne"/>
+		</Unit>
 		<Unit filename="/users/guest/s/smiley81/Proj1/Right_ParenAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
@@ -217,6 +241,12 @@
 			<Option target="projectOne"/>
 		</Unit>
 		<Unit filename="/users/guest/s/smiley81/Proj1/Token.h">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Tuple.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Tuple.h">
 			<Option target="projectOne"/>
 		</Unit>
 		<Unit filename="/users/guest/s/smiley81/Proj1/main.cpp">

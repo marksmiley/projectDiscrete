@@ -9,7 +9,7 @@
 #include "MultiplyAutomaton.h"
 #include "AddAutomaton.h"
 #include "SchemesAutomaton.h"
-#include "Facts.h"
+#include "FactsAutomaton.h"
 #include "RulesAutomaton.h"
 #include "QueriesAutomaton.h"
 #include "CommentAutomata.h"
@@ -26,7 +26,6 @@ Lexer::Lexer() {
 
 Lexer::~Lexer() {
     // TODO: need to clean up the memory in `automata` and `tokens`
-    // Don't forget you still got to look at the newLines
 }
 
 void Lexer::CreateAutomata() {

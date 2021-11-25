@@ -10,8 +10,10 @@ class Parameter {
 public:
     Parameter();
     Parameter(std::string input);
-    std::string p;
-    std::string ToString(Parameter parameter);
+    std::string ToString();
+
+private:
+    std::string parameterValue;
 };
 
 

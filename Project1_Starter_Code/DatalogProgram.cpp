@@ -202,14 +202,6 @@ void DatalogProgram::StringList() {
     }
 }
 
-/*create a new vector of parameters in stringlist - or make a universal vector
- * add as many parameters to the vector as necessary
- * then add them to the predicate when it returns
- * and then clear the vector
- * so we can keep using said vector
- * */
-
-
 void DatalogProgram::IdList() {
 //idList  	-> 	COMMA ID idList | lambda
     if(tokens.at(index)->ReturnType() == TokenType::COMMA){
@@ -241,19 +233,19 @@ void DatalogProgram::parameter() {
 std::string DatalogProgram::ToString(){
     std::stringstream returnString;
     returnString << "Schemes(" << pschemes.size() << "):" << std::endl;
-    for (int i = 0; i < pschemes.size(); i++){
+    for (int i = 0; i < (int)pschemes.size(); i++){
         returnString << "  " << pschemes.at(i)->ToString(*pschemes.at(i)) << std::endl;
     }
     returnString << "Facts(" << pfacts.size() << "):" << std::endl;
-    for (int i = 0; i < pfacts.size(); ++i){
+    for (int i = 0; i < (int)pfacts.size(); ++i){
         returnString << "  " << pfacts.at(i)->ToString(*pfacts.at(i)) << "." << std::endl;
     }
     returnString << "Rules(" << ruleVector.size() << "):" << std::endl;
-    for (int i = 0; i < ruleVector.size(); i++){
+    for (int i = 0; i < (int)ruleVector.size(); i++){
         returnString << "  " << ruleVector.at(i)->ToString() << std::endl;
     }
     returnString << "Queries(" << pquery.size() << "):" << std::endl;
-    for (int i = 0; i < pquery.size(); ++i){
+    for (int i = 0; i < (int)pquery.size(); ++i){
         returnString << "  " << pquery.at(i)->ToString(*pquery.at(i)) << "?" << std::endl;
     }
     returnString << "Domain(" << domain.size() << "):" << std::endl;

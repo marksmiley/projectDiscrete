@@ -9,9 +9,9 @@
 Parameter::Parameter() {}
 
 Parameter::Parameter(std::string input) {
-    p = input;
+    parameterValue = input;
 }
 
-std::string Parameter::ToString(Parameter parameter) {
-    return p;
+std::string Parameter::ToString() {
+    return parameterValue;
 }

@@ -1,1 +1,4 @@
-Cannot create directory /Users/marcus/Desktop/School/discretestOfStructures/projectDiscrete/Project1_Starter_Code/cmake-build-debug-hemote-rost: `mkdir "/Users"` failed with exit code 1: stdout='', stderr='mkdir: cannot create directory '/Users': Permission denied'
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /users/guest/s/smiley81/Proj1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost

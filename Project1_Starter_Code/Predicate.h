@@ -11,6 +11,8 @@ public:
     std::string ToString(Predicate currPredicate);
     std::string getInitId();
     std::vector<Parameter> getParameters();
+    std::vector <std::string> GetParamValues(std::vector<Parameter> paramVec);
+    //create GetParamValues
 
 private:
     std::string initID;

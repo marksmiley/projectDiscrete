@@ -11,6 +11,7 @@
 
 class DatalogProgram {
 public:
+    DatalogProgram() {}
     DatalogProgram(std::vector<Token*> allTokens);
     bool Match(TokenType currToken, TokenType requiredToken);
     void DatalogProgramInit();
@@ -29,6 +30,10 @@ public:
     void StringList();
     void IdList();
     void parameter();
+    std::vector <Predicate*> ReturnSchemes(){return pschemes;}
+    std::vector <Predicate*> ReturnFacts(){return pfacts;}
+    std::vector <Predicate*> ReturnQueries(){return pquery;}
+    std::vector <Rule*> ReturnRules(){return ruleVector;}
     std::string ToString();
 
 private:

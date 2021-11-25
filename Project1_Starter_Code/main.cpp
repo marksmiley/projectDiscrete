@@ -1,6 +1,7 @@
 #include "Lexer.h"
 #include "Token.h"
 #include "DatalogProgram.h"
+#include "Interpreter.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -35,7 +36,7 @@ int main(int argc, char** argv) {
     std::vector<Token*> tokenList = proj1.ReturnTokens();
     //std::cout << proj1.ToString() << std::endl;
 
-    DatalogProgram nowThis(tokenList);
+    DatalogProgram nowThis(tokenList); // do something similar with the returned DatalogProgram
 
     try{
         nowThis.DatalogProgramInit();
@@ -43,10 +44,16 @@ int main(int argc, char** argv) {
         std::cout << "Failure!" << std::endl << error->ToString();
         return 0;
     }
-    std::cout << "Success!" << std::endl;
-    std::cout << nowThis.ToString();
+    //std::cout << "Success!" << std::endl;
+    //std::cout << nowThis.ToString();
+
+    Interpreter proj3(nowThis);
+    //call interpreter and use nowThis as parameter
+    //create constructor within interpreter to pass in values to a DatalogProgram object that can be manipulated in Interpreter
+
     delete lexer;
     return 0;
+
 }
 
 

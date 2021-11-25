@@ -11,6 +11,8 @@ class Rule {
 public:
     Rule(){}
     Rule(Predicate headPredicate, std::vector<Predicate*> copyPredicates);
+    Predicate GetHeadPredicate(){return headPredicate;}
+    std::vector<Predicate*> GetBodyPredicates(){return bodyPredicates;}
     std::string ToString();
 
 private:

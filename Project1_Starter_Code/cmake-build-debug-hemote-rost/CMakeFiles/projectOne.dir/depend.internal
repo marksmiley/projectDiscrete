@@ -26,20 +26,47 @@ CMakeFiles/projectOne.dir/CommentAutomata.cpp.o
  /users/guest/s/smiley81/Proj1/CommentAutomata.cpp
  /users/guest/s/smiley81/Proj1/CommentAutomata.h
  /users/guest/s/smiley81/Proj1/Token.h
+CMakeFiles/projectOne.dir/Database.cpp.o
+ /users/guest/s/smiley81/Proj1/Database.cpp
+ /users/guest/s/smiley81/Proj1/Database.h
+ /users/guest/s/smiley81/Proj1/Header.h
+ /users/guest/s/smiley81/Proj1/Parameter.h
+ /users/guest/s/smiley81/Proj1/Predicate.h
+ /users/guest/s/smiley81/Proj1/Relation.h
+ /users/guest/s/smiley81/Proj1/Rule.h
+ /users/guest/s/smiley81/Proj1/Tuple.h
 CMakeFiles/projectOne.dir/DatalogProgram.cpp.o
  /users/guest/s/smiley81/Proj1/DatalogProgram.cpp
  /users/guest/s/smiley81/Proj1/DatalogProgram.h
+ /users/guest/s/smiley81/Proj1/Parameter.h
+ /users/guest/s/smiley81/Proj1/Predicate.h
+ /users/guest/s/smiley81/Proj1/Rule.h
  /users/guest/s/smiley81/Proj1/Token.h
-CMakeFiles/projectOne.dir/Facts.cpp.o
+CMakeFiles/projectOne.dir/FactsAutomaton.cpp.o
  /users/guest/s/smiley81/Proj1/Automaton.h
- /users/guest/s/smiley81/Proj1/Facts.cpp
- /users/guest/s/smiley81/Proj1/Facts.h
+ /users/guest/s/smiley81/Proj1/FactsAutomaton.cpp
+ /users/guest/s/smiley81/Proj1/FactsAutomaton.h
  /users/guest/s/smiley81/Proj1/Token.h
+CMakeFiles/projectOne.dir/Header.cpp.o
+ /users/guest/s/smiley81/Proj1/Header.cpp
+ /users/guest/s/smiley81/Proj1/Header.h
 CMakeFiles/projectOne.dir/IDAutomaton.cpp.o
  /users/guest/s/smiley81/Proj1/Automaton.h
  /users/guest/s/smiley81/Proj1/IDAutomaton.cpp
  /users/guest/s/smiley81/Proj1/IDAutomaton.h
  /users/guest/s/smiley81/Proj1/Token.h
+CMakeFiles/projectOne.dir/Interpreter.cpp.o
+ /users/guest/s/smiley81/Proj1/Database.h
+ /users/guest/s/smiley81/Proj1/DatalogProgram.h
+ /users/guest/s/smiley81/Proj1/Header.h
+ /users/guest/s/smiley81/Proj1/Interpreter.cpp
+ /users/guest/s/smiley81/Proj1/Interpreter.h
+ /users/guest/s/smiley81/Proj1/Parameter.h
+ /users/guest/s/smiley81/Proj1/Predicate.h
+ /users/guest/s/smiley81/Proj1/Relation.h
+ /users/guest/s/smiley81/Proj1/Rule.h
+ /users/guest/s/smiley81/Proj1/Token.h
+ /users/guest/s/smiley81/Proj1/Tuple.h
 CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.o
  /users/guest/s/smiley81/Proj1/Automaton.h
  /users/guest/s/smiley81/Proj1/Left_ParenAutomaton.cpp
@@ -52,7 +79,7 @@ CMakeFiles/projectOne.dir/Lexer.cpp.o
  /users/guest/s/smiley81/Proj1/ColonDashAutomaton.h
  /users/guest/s/smiley81/Proj1/CommaAutomaton.h
  /users/guest/s/smiley81/Proj1/CommentAutomata.h
- /users/guest/s/smiley81/Proj1/Facts.h
+ /users/guest/s/smiley81/Proj1/FactsAutomaton.h
  /users/guest/s/smiley81/Proj1/IDAutomaton.h
  /users/guest/s/smiley81/Proj1/Left_ParenAutomaton.h
  /users/guest/s/smiley81/Proj1/Lexer.cpp
@@ -71,11 +98,18 @@ CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.o
  /users/guest/s/smiley81/Proj1/MultiplyAutomaton.cpp
  /users/guest/s/smiley81/Proj1/MultiplyAutomaton.h
  /users/guest/s/smiley81/Proj1/Token.h
+CMakeFiles/projectOne.dir/Parameter.cpp.o
+ /users/guest/s/smiley81/Proj1/Parameter.cpp
+ /users/guest/s/smiley81/Proj1/Parameter.h
 CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.o
  /users/guest/s/smiley81/Proj1/Automaton.h
  /users/guest/s/smiley81/Proj1/PeriodAutomaton.cpp
  /users/guest/s/smiley81/Proj1/PeriodAutomaton.h
  /users/guest/s/smiley81/Proj1/Token.h
+CMakeFiles/projectOne.dir/Predicate.cpp.o
+ /users/guest/s/smiley81/Proj1/Parameter.h
+ /users/guest/s/smiley81/Proj1/Predicate.cpp
+ /users/guest/s/smiley81/Proj1/Predicate.h
 CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.o
  /users/guest/s/smiley81/Proj1/Automaton.h
  /users/guest/s/smiley81/Proj1/Q_MarkAutomaton.cpp
@@ -86,11 +120,24 @@ CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o
  /users/guest/s/smiley81/Proj1/QueriesAutomaton.cpp
  /users/guest/s/smiley81/Proj1/QueriesAutomaton.h
  /users/guest/s/smiley81/Proj1/Token.h
+CMakeFiles/projectOne.dir/Relation.cpp.o
+ /users/guest/s/smiley81/Proj1/Header.h
+ /users/guest/s/smiley81/Proj1/Parameter.h
+ /users/guest/s/smiley81/Proj1/Predicate.h
+ /users/guest/s/smiley81/Proj1/Relation.cpp
+ /users/guest/s/smiley81/Proj1/Relation.h
+ /users/guest/s/smiley81/Proj1/Rule.h
+ /users/guest/s/smiley81/Proj1/Tuple.h
 CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.o
  /users/guest/s/smiley81/Proj1/Automaton.h
  /users/guest/s/smiley81/Proj1/Right_ParenAutomaton.cpp
  /users/guest/s/smiley81/Proj1/Right_ParenAutomaton.h
  /users/guest/s/smiley81/Proj1/Token.h
+CMakeFiles/projectOne.dir/Rule.cpp.o
+ /users/guest/s/smiley81/Proj1/Parameter.h
+ /users/guest/s/smiley81/Proj1/Predicate.h
+ /users/guest/s/smiley81/Proj1/Rule.cpp
+ /users/guest/s/smiley81/Proj1/Rule.h
 CMakeFiles/projectOne.dir/RulesAutomaton.cpp.o
  /users/guest/s/smiley81/Proj1/Automaton.h
  /users/guest/s/smiley81/Proj1/RulesAutomaton.cpp
@@ -109,9 +156,20 @@ CMakeFiles/projectOne.dir/StringAutomaton.cpp.o
 CMakeFiles/projectOne.dir/Token.cpp.o
  /users/guest/s/smiley81/Proj1/Token.cpp
  /users/guest/s/smiley81/Proj1/Token.h
+CMakeFiles/projectOne.dir/Tuple.cpp.o
+ /users/guest/s/smiley81/Proj1/Tuple.cpp
+ /users/guest/s/smiley81/Proj1/Tuple.h
 CMakeFiles/projectOne.dir/main.cpp.o
  /users/guest/s/smiley81/Proj1/Automaton.h
+ /users/guest/s/smiley81/Proj1/Database.h
  /users/guest/s/smiley81/Proj1/DatalogProgram.h
+ /users/guest/s/smiley81/Proj1/Header.h
+ /users/guest/s/smiley81/Proj1/Interpreter.h
  /users/guest/s/smiley81/Proj1/Lexer.h
+ /users/guest/s/smiley81/Proj1/Parameter.h
+ /users/guest/s/smiley81/Proj1/Predicate.h
+ /users/guest/s/smiley81/Proj1/Relation.h
+ /users/guest/s/smiley81/Proj1/Rule.h
  /users/guest/s/smiley81/Proj1/Token.h
+ /users/guest/s/smiley81/Proj1/Tuple.h
  /users/guest/s/smiley81/Proj1/main.cpp
