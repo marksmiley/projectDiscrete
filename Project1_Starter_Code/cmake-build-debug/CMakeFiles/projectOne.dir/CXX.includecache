@@ -12,14 +12,6 @@ Token.h
 iostream
 -
 
-/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/DatalogProgram.cpp
-DatalogProgram.h
-/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/DatalogProgram.h
-Rule.h
-/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Rule.h
-sstream
--
-
 /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/DatalogProgram.h
 Token.h
 /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Token.h
@@ -27,7 +19,11 @@ Predicate.h
 /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Predicate.h
 Parameter.h
 /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Parameter.h
+Rule.h
+/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Rule.h
 vector
+-
+set
 -
 
 /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Lexer.h
@@ -50,10 +46,6 @@ vector
 Parameter.h
 /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Parameter.h
 
-/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Rule.cpp
-Rule.h
-/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Rule.h
-
 /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Rule.h
 Predicate.h
 /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Predicate.h
@@ -71,6 +63,8 @@ Token.h
 /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Token.h
 DatalogProgram.h
 /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/DatalogProgram.h
+Interpreter.h
+/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Interpreter.h
 iostream
 -
 fstream

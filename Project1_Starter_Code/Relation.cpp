@@ -82,8 +82,16 @@ Relation Relation::Rename(std::vector<std::string> newNames){
 
 bool Relation::Unionize(Relation otherRelation){
     Relation newRelation;
+    for (auto elem : otherRelation.tuples){
 
-
+        if (tuples.insert(elem).second) {
+            AddTuple(elem);
+            for ( int i = 0; i < header->HeaderSize(); ++i) {
+            std::cout << "  " << header->at(i) << "=" << elem.GetTuple(i);
+            }
+            std::cout << std::endl;
+        }
+    }
     return true;
 }
 
@@ -127,9 +135,9 @@ Header* Relation::CombineHeaders(Relation& otherRelation){
             newHeader->AddAttribute(otherRelation.header->at(i));
         }
     }
-    for (int i = 0; i < newHeader->HeaderSize(); ++i){
+    /*for (int i = 0; i < newHeader->HeaderSize(); ++i){
         std::cout <<"|" << newHeader->ReturnHeaderVec().at(i) << "| ";
-    }
+    }*/
     std::cout << std::endl;
     return newHeader;
 }
@@ -147,7 +155,7 @@ Tuple Relation::CombineTuples(Tuple t1, Tuple t2) {
 }
 
 
-void Relation::ToString() {
+void Relation::ToStringQuery() {
     if (tuples.empty()) {
         std::cout << "No" << std::endl;
     } else {
@@ -170,4 +178,24 @@ void Relation::ToString() {
         }
     }
 }
+
+void Relation::ToStringRule() {
+    for (auto elem : tuples){
+        for (int i = 0; i < header->HeaderSize(); ++i){
+            if(i==0){
+                std::cout << "  " << header->at(i) << "=" << elem.GetTuple(i);
+                if(header->HeaderSize()==1){
+                    std::cout << std::endl;
+                }
+            }
+            else{
+                std::cout << ", " << header->at(i) << "=" << elem.GetTuple(i);
+                if(i == header->HeaderSize()-1) {
+                    std::cout << std::endl;
+                }
+            }
+        }
+    }
+}
+
 

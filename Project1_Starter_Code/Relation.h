@@ -1,14 +1,13 @@
 #include <string>
 #include <set>
 #include <utility>
+#ifndef PROJECT1_STARTER_CODE_RELATION_H
+#define PROJECT1_STARTER_CODE_RELATION_H
 #include "Header.h"
 #include "Tuple.h"
 #include "Rule.h"
-#ifndef PROJECT1_STARTER_CODE_RELATION_H
-#define PROJECT1_STARTER_CODE_RELATION_H
 
-
-class Relation { //"Relations are used as operands in relational operations such as select, project, and rename."
+class Relation {
 public:
     Relation(){header = new Header();}
     Relation(std::string namePass, std::vector<std::string> headerPass);
@@ -32,8 +31,10 @@ public:
     void SetRelName(std::string newName){name = newName;}
     Header* GetHeader(){return header;}
     void AddTuple(Tuple newTuple);
+    int GetTupleInt(){return tuples.size();}
     std::string ReturnRelationName(){return name;}
-    void ToString();
+    void ToStringQuery();
+    void ToStringRule();
 
 private:
     std::string name;

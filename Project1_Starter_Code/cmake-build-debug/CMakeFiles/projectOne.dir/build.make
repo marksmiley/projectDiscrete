@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk
+CMAKE_SOURCE_DIR = /users/guest/s/smiley81/Proj1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug
+CMAKE_BINARY_DIR = /users/guest/s/smiley81/Proj1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/projectOne.dir/depend.make
@@ -59,302 +59,367 @@ include CMakeFiles/projectOne.dir/flags.make
 
 CMakeFiles/projectOne.dir/ColonAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/ColonAutomaton.cpp.o: ../ColonAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/projectOne.dir/ColonAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/ColonAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/projectOne.dir/ColonAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/ColonAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/ColonAutomaton.cpp
 
 CMakeFiles/projectOne.dir/ColonAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/ColonAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonAutomaton.cpp > CMakeFiles/projectOne.dir/ColonAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/ColonAutomaton.cpp > CMakeFiles/projectOne.dir/ColonAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/ColonAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/ColonAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonAutomaton.cpp -o CMakeFiles/projectOne.dir/ColonAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/ColonAutomaton.cpp -o CMakeFiles/projectOne.dir/ColonAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.o: ../ColonDashAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonDashAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/ColonDashAutomaton.cpp
 
 CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonDashAutomaton.cpp > CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/ColonDashAutomaton.cpp > CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonDashAutomaton.cpp -o CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/ColonDashAutomaton.cpp -o CMakeFiles/projectOne.dir/ColonDashAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/Lexer.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/Lexer.cpp.o: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/projectOne.dir/Lexer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Lexer.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/projectOne.dir/Lexer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Lexer.cpp.o -c /users/guest/s/smiley81/Proj1/Lexer.cpp
 
 CMakeFiles/projectOne.dir/Lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Lexer.cpp > CMakeFiles/projectOne.dir/Lexer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Lexer.cpp > CMakeFiles/projectOne.dir/Lexer.cpp.i
 
 CMakeFiles/projectOne.dir/Lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Lexer.cpp -o CMakeFiles/projectOne.dir/Lexer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Lexer.cpp -o CMakeFiles/projectOne.dir/Lexer.cpp.s
 
 CMakeFiles/projectOne.dir/Token.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/Token.cpp.o: ../Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/projectOne.dir/Token.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Token.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/projectOne.dir/Token.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Token.cpp.o -c /users/guest/s/smiley81/Proj1/Token.cpp
 
 CMakeFiles/projectOne.dir/Token.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Token.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Token.cpp > CMakeFiles/projectOne.dir/Token.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Token.cpp > CMakeFiles/projectOne.dir/Token.cpp.i
 
 CMakeFiles/projectOne.dir/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Token.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Token.cpp -o CMakeFiles/projectOne.dir/Token.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Token.cpp -o CMakeFiles/projectOne.dir/Token.cpp.s
 
 CMakeFiles/projectOne.dir/main.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/projectOne.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/main.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/projectOne.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/main.cpp.o -c /users/guest/s/smiley81/Proj1/main.cpp
 
 CMakeFiles/projectOne.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/main.cpp > CMakeFiles/projectOne.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/main.cpp > CMakeFiles/projectOne.dir/main.cpp.i
 
 CMakeFiles/projectOne.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/main.cpp -o CMakeFiles/projectOne.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/main.cpp -o CMakeFiles/projectOne.dir/main.cpp.s
 
 CMakeFiles/projectOne.dir/CommaAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/CommaAutomaton.cpp.o: ../CommaAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projectOne.dir/CommaAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/CommaAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommaAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projectOne.dir/CommaAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/CommaAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/CommaAutomaton.cpp
 
 CMakeFiles/projectOne.dir/CommaAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/CommaAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommaAutomaton.cpp > CMakeFiles/projectOne.dir/CommaAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/CommaAutomaton.cpp > CMakeFiles/projectOne.dir/CommaAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/CommaAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/CommaAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommaAutomaton.cpp -o CMakeFiles/projectOne.dir/CommaAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/CommaAutomaton.cpp -o CMakeFiles/projectOne.dir/CommaAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.o: ../PeriodAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/PeriodAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/PeriodAutomaton.cpp
 
 CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/PeriodAutomaton.cpp > CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/PeriodAutomaton.cpp > CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/PeriodAutomaton.cpp -o CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/PeriodAutomaton.cpp -o CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.o: ../Q_MarkAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Q_MarkAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/Q_MarkAutomaton.cpp
 
 CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Q_MarkAutomaton.cpp > CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Q_MarkAutomaton.cpp > CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Q_MarkAutomaton.cpp -o CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Q_MarkAutomaton.cpp -o CMakeFiles/projectOne.dir/Q_MarkAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.o: ../Left_ParenAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Left_ParenAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/Left_ParenAutomaton.cpp
 
 CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Left_ParenAutomaton.cpp > CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Left_ParenAutomaton.cpp > CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Left_ParenAutomaton.cpp -o CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Left_ParenAutomaton.cpp -o CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.o: ../Right_ParenAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Right_ParenAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/Right_ParenAutomaton.cpp
 
 CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Right_ParenAutomaton.cpp > CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Right_ParenAutomaton.cpp > CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Right_ParenAutomaton.cpp -o CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Right_ParenAutomaton.cpp -o CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.o: ../MultiplyAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/MultiplyAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/MultiplyAutomaton.cpp
 
 CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/MultiplyAutomaton.cpp > CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/MultiplyAutomaton.cpp > CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/MultiplyAutomaton.cpp -o CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/MultiplyAutomaton.cpp -o CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.o: ../SchemesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/SchemesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/SchemesAutomaton.cpp
 
 CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/SchemesAutomaton.cpp > CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/SchemesAutomaton.cpp > CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/SchemesAutomaton.cpp -o CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/SchemesAutomaton.cpp -o CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.s
 
-CMakeFiles/projectOne.dir/Facts.cpp.o: CMakeFiles/projectOne.dir/flags.make
-CMakeFiles/projectOne.dir/Facts.cpp.o: ../Facts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/projectOne.dir/Facts.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Facts.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Facts.cpp
+CMakeFiles/projectOne.dir/FactsAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
+CMakeFiles/projectOne.dir/FactsAutomaton.cpp.o: ../FactsAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/projectOne.dir/FactsAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/FactsAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/FactsAutomaton.cpp
 
-CMakeFiles/projectOne.dir/Facts.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Facts.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Facts.cpp > CMakeFiles/projectOne.dir/Facts.cpp.i
+CMakeFiles/projectOne.dir/FactsAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/FactsAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/FactsAutomaton.cpp > CMakeFiles/projectOne.dir/FactsAutomaton.cpp.i
 
-CMakeFiles/projectOne.dir/Facts.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Facts.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Facts.cpp -o CMakeFiles/projectOne.dir/Facts.cpp.s
+CMakeFiles/projectOne.dir/FactsAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/FactsAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/FactsAutomaton.cpp -o CMakeFiles/projectOne.dir/FactsAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/RulesAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/RulesAutomaton.cpp.o: ../RulesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/projectOne.dir/RulesAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/RulesAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/RulesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/projectOne.dir/RulesAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/RulesAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/RulesAutomaton.cpp
 
 CMakeFiles/projectOne.dir/RulesAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/RulesAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/RulesAutomaton.cpp > CMakeFiles/projectOne.dir/RulesAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/RulesAutomaton.cpp > CMakeFiles/projectOne.dir/RulesAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/RulesAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/RulesAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/RulesAutomaton.cpp -o CMakeFiles/projectOne.dir/RulesAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/RulesAutomaton.cpp -o CMakeFiles/projectOne.dir/RulesAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o: ../QueriesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/QueriesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/QueriesAutomaton.cpp
 
 CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/QueriesAutomaton.cpp > CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/QueriesAutomaton.cpp > CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/QueriesAutomaton.cpp -o CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/QueriesAutomaton.cpp -o CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/IDAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/IDAutomaton.cpp.o: ../IDAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/projectOne.dir/IDAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/IDAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/IDAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/projectOne.dir/IDAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/IDAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/IDAutomaton.cpp
 
 CMakeFiles/projectOne.dir/IDAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/IDAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/IDAutomaton.cpp > CMakeFiles/projectOne.dir/IDAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/IDAutomaton.cpp > CMakeFiles/projectOne.dir/IDAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/IDAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/IDAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/IDAutomaton.cpp -o CMakeFiles/projectOne.dir/IDAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/IDAutomaton.cpp -o CMakeFiles/projectOne.dir/IDAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/CommentAutomata.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/CommentAutomata.cpp.o: ../CommentAutomata.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/projectOne.dir/CommentAutomata.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/CommentAutomata.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommentAutomata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/projectOne.dir/CommentAutomata.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/CommentAutomata.cpp.o -c /users/guest/s/smiley81/Proj1/CommentAutomata.cpp
 
 CMakeFiles/projectOne.dir/CommentAutomata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/CommentAutomata.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommentAutomata.cpp > CMakeFiles/projectOne.dir/CommentAutomata.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/CommentAutomata.cpp > CMakeFiles/projectOne.dir/CommentAutomata.cpp.i
 
 CMakeFiles/projectOne.dir/CommentAutomata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/CommentAutomata.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommentAutomata.cpp -o CMakeFiles/projectOne.dir/CommentAutomata.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/CommentAutomata.cpp -o CMakeFiles/projectOne.dir/CommentAutomata.cpp.s
 
 CMakeFiles/projectOne.dir/StringAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/StringAutomaton.cpp.o: ../StringAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/projectOne.dir/StringAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/StringAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/StringAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/projectOne.dir/StringAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/StringAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/StringAutomaton.cpp
 
 CMakeFiles/projectOne.dir/StringAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/StringAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/StringAutomaton.cpp > CMakeFiles/projectOne.dir/StringAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/StringAutomaton.cpp > CMakeFiles/projectOne.dir/StringAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/StringAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/StringAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/StringAutomaton.cpp -o CMakeFiles/projectOne.dir/StringAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/StringAutomaton.cpp -o CMakeFiles/projectOne.dir/StringAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/AddAutomaton.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/AddAutomaton.cpp.o: ../AddAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/projectOne.dir/AddAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/AddAutomaton.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/AddAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/projectOne.dir/AddAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/AddAutomaton.cpp.o -c /users/guest/s/smiley81/Proj1/AddAutomaton.cpp
 
 CMakeFiles/projectOne.dir/AddAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/AddAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/AddAutomaton.cpp > CMakeFiles/projectOne.dir/AddAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/AddAutomaton.cpp > CMakeFiles/projectOne.dir/AddAutomaton.cpp.i
 
 CMakeFiles/projectOne.dir/AddAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/AddAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/AddAutomaton.cpp -o CMakeFiles/projectOne.dir/AddAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/AddAutomaton.cpp -o CMakeFiles/projectOne.dir/AddAutomaton.cpp.s
 
 CMakeFiles/projectOne.dir/DatalogProgram.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/DatalogProgram.cpp.o: ../DatalogProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/projectOne.dir/DatalogProgram.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/DatalogProgram.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/DatalogProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/projectOne.dir/DatalogProgram.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/DatalogProgram.cpp.o -c /users/guest/s/smiley81/Proj1/DatalogProgram.cpp
 
 CMakeFiles/projectOne.dir/DatalogProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/DatalogProgram.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/DatalogProgram.cpp > CMakeFiles/projectOne.dir/DatalogProgram.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/DatalogProgram.cpp > CMakeFiles/projectOne.dir/DatalogProgram.cpp.i
 
 CMakeFiles/projectOne.dir/DatalogProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/DatalogProgram.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/DatalogProgram.cpp -o CMakeFiles/projectOne.dir/DatalogProgram.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/DatalogProgram.cpp -o CMakeFiles/projectOne.dir/DatalogProgram.cpp.s
 
 CMakeFiles/projectOne.dir/Predicate.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/Predicate.cpp.o: ../Predicate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/projectOne.dir/Predicate.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Predicate.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/projectOne.dir/Predicate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Predicate.cpp.o -c /users/guest/s/smiley81/Proj1/Predicate.cpp
 
 CMakeFiles/projectOne.dir/Predicate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Predicate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Predicate.cpp > CMakeFiles/projectOne.dir/Predicate.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Predicate.cpp > CMakeFiles/projectOne.dir/Predicate.cpp.i
 
 CMakeFiles/projectOne.dir/Predicate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Predicate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Predicate.cpp -o CMakeFiles/projectOne.dir/Predicate.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Predicate.cpp -o CMakeFiles/projectOne.dir/Predicate.cpp.s
 
 CMakeFiles/projectOne.dir/Parameter.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/Parameter.cpp.o: ../Parameter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/projectOne.dir/Parameter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Parameter.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Parameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/projectOne.dir/Parameter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Parameter.cpp.o -c /users/guest/s/smiley81/Proj1/Parameter.cpp
 
 CMakeFiles/projectOne.dir/Parameter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Parameter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Parameter.cpp > CMakeFiles/projectOne.dir/Parameter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Parameter.cpp > CMakeFiles/projectOne.dir/Parameter.cpp.i
 
 CMakeFiles/projectOne.dir/Parameter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Parameter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Parameter.cpp -o CMakeFiles/projectOne.dir/Parameter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Parameter.cpp -o CMakeFiles/projectOne.dir/Parameter.cpp.s
 
 CMakeFiles/projectOne.dir/Rule.cpp.o: CMakeFiles/projectOne.dir/flags.make
 CMakeFiles/projectOne.dir/Rule.cpp.o: ../Rule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/projectOne.dir/Rule.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Rule.cpp.o -c /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/projectOne.dir/Rule.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Rule.cpp.o -c /users/guest/s/smiley81/Proj1/Rule.cpp
 
 CMakeFiles/projectOne.dir/Rule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Rule.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Rule.cpp > CMakeFiles/projectOne.dir/Rule.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Rule.cpp > CMakeFiles/projectOne.dir/Rule.cpp.i
 
 CMakeFiles/projectOne.dir/Rule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Rule.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Rule.cpp -o CMakeFiles/projectOne.dir/Rule.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Rule.cpp -o CMakeFiles/projectOne.dir/Rule.cpp.s
+
+CMakeFiles/projectOne.dir/Database.cpp.o: CMakeFiles/projectOne.dir/flags.make
+CMakeFiles/projectOne.dir/Database.cpp.o: ../Database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/projectOne.dir/Database.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Database.cpp.o -c /users/guest/s/smiley81/Proj1/Database.cpp
+
+CMakeFiles/projectOne.dir/Database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Database.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Database.cpp > CMakeFiles/projectOne.dir/Database.cpp.i
+
+CMakeFiles/projectOne.dir/Database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Database.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Database.cpp -o CMakeFiles/projectOne.dir/Database.cpp.s
+
+CMakeFiles/projectOne.dir/Relation.cpp.o: CMakeFiles/projectOne.dir/flags.make
+CMakeFiles/projectOne.dir/Relation.cpp.o: ../Relation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/projectOne.dir/Relation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Relation.cpp.o -c /users/guest/s/smiley81/Proj1/Relation.cpp
+
+CMakeFiles/projectOne.dir/Relation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Relation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Relation.cpp > CMakeFiles/projectOne.dir/Relation.cpp.i
+
+CMakeFiles/projectOne.dir/Relation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Relation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Relation.cpp -o CMakeFiles/projectOne.dir/Relation.cpp.s
+
+CMakeFiles/projectOne.dir/Header.cpp.o: CMakeFiles/projectOne.dir/flags.make
+CMakeFiles/projectOne.dir/Header.cpp.o: ../Header.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/projectOne.dir/Header.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Header.cpp.o -c /users/guest/s/smiley81/Proj1/Header.cpp
+
+CMakeFiles/projectOne.dir/Header.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Header.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Header.cpp > CMakeFiles/projectOne.dir/Header.cpp.i
+
+CMakeFiles/projectOne.dir/Header.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Header.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Header.cpp -o CMakeFiles/projectOne.dir/Header.cpp.s
+
+CMakeFiles/projectOne.dir/Tuple.cpp.o: CMakeFiles/projectOne.dir/flags.make
+CMakeFiles/projectOne.dir/Tuple.cpp.o: ../Tuple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/projectOne.dir/Tuple.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Tuple.cpp.o -c /users/guest/s/smiley81/Proj1/Tuple.cpp
+
+CMakeFiles/projectOne.dir/Tuple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Tuple.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Tuple.cpp > CMakeFiles/projectOne.dir/Tuple.cpp.i
+
+CMakeFiles/projectOne.dir/Tuple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Tuple.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Tuple.cpp -o CMakeFiles/projectOne.dir/Tuple.cpp.s
+
+CMakeFiles/projectOne.dir/Interpreter.cpp.o: CMakeFiles/projectOne.dir/flags.make
+CMakeFiles/projectOne.dir/Interpreter.cpp.o: ../Interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/projectOne.dir/Interpreter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projectOne.dir/Interpreter.cpp.o -c /users/guest/s/smiley81/Proj1/Interpreter.cpp
+
+CMakeFiles/projectOne.dir/Interpreter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectOne.dir/Interpreter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/s/smiley81/Proj1/Interpreter.cpp > CMakeFiles/projectOne.dir/Interpreter.cpp.i
+
+CMakeFiles/projectOne.dir/Interpreter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectOne.dir/Interpreter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/s/smiley81/Proj1/Interpreter.cpp -o CMakeFiles/projectOne.dir/Interpreter.cpp.s
 
 # Object files for target projectOne
 projectOne_OBJECTS = \
@@ -370,7 +435,7 @@ projectOne_OBJECTS = \
 "CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.o" \
 "CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.o" \
 "CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.o" \
-"CMakeFiles/projectOne.dir/Facts.cpp.o" \
+"CMakeFiles/projectOne.dir/FactsAutomaton.cpp.o" \
 "CMakeFiles/projectOne.dir/RulesAutomaton.cpp.o" \
 "CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o" \
 "CMakeFiles/projectOne.dir/IDAutomaton.cpp.o" \
@@ -380,7 +445,12 @@ projectOne_OBJECTS = \
 "CMakeFiles/projectOne.dir/DatalogProgram.cpp.o" \
 "CMakeFiles/projectOne.dir/Predicate.cpp.o" \
 "CMakeFiles/projectOne.dir/Parameter.cpp.o" \
-"CMakeFiles/projectOne.dir/Rule.cpp.o"
+"CMakeFiles/projectOne.dir/Rule.cpp.o" \
+"CMakeFiles/projectOne.dir/Database.cpp.o" \
+"CMakeFiles/projectOne.dir/Relation.cpp.o" \
+"CMakeFiles/projectOne.dir/Header.cpp.o" \
+"CMakeFiles/projectOne.dir/Tuple.cpp.o" \
+"CMakeFiles/projectOne.dir/Interpreter.cpp.o"
 
 # External object files for target projectOne
 projectOne_EXTERNAL_OBJECTS =
@@ -397,7 +467,7 @@ projectOne: CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.o
 projectOne: CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.o
 projectOne: CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.o
 projectOne: CMakeFiles/projectOne.dir/SchemesAutomaton.cpp.o
-projectOne: CMakeFiles/projectOne.dir/Facts.cpp.o
+projectOne: CMakeFiles/projectOne.dir/FactsAutomaton.cpp.o
 projectOne: CMakeFiles/projectOne.dir/RulesAutomaton.cpp.o
 projectOne: CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o
 projectOne: CMakeFiles/projectOne.dir/IDAutomaton.cpp.o
@@ -408,9 +478,14 @@ projectOne: CMakeFiles/projectOne.dir/DatalogProgram.cpp.o
 projectOne: CMakeFiles/projectOne.dir/Predicate.cpp.o
 projectOne: CMakeFiles/projectOne.dir/Parameter.cpp.o
 projectOne: CMakeFiles/projectOne.dir/Rule.cpp.o
+projectOne: CMakeFiles/projectOne.dir/Database.cpp.o
+projectOne: CMakeFiles/projectOne.dir/Relation.cpp.o
+projectOne: CMakeFiles/projectOne.dir/Header.cpp.o
+projectOne: CMakeFiles/projectOne.dir/Tuple.cpp.o
+projectOne: CMakeFiles/projectOne.dir/Interpreter.cpp.o
 projectOne: CMakeFiles/projectOne.dir/build.make
 projectOne: CMakeFiles/projectOne.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable projectOne"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable projectOne"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectOne.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -423,6 +498,6 @@ CMakeFiles/projectOne.dir/clean:
 .PHONY : CMakeFiles/projectOne.dir/clean
 
 CMakeFiles/projectOne.dir/depend:
-	cd /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug /users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/CMakeFiles/projectOne.dir/DependInfo.cmake --color=$(COLOR)
+	cd /users/guest/s/smiley81/Proj1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /users/guest/s/smiley81/Proj1 /users/guest/s/smiley81/Proj1 /users/guest/s/smiley81/Proj1/cmake-build-debug /users/guest/s/smiley81/Proj1/cmake-build-debug /users/guest/s/smiley81/Proj1/cmake-build-debug/CMakeFiles/projectOne.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/projectOne.dir/depend
 

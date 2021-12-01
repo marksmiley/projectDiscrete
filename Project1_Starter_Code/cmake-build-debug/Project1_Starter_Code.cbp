@@ -8,43 +8,43 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug"/>
+				<Option working_dir="/users/guest/s/smiley81/Proj1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug"/>
+				<Option working_dir="/users/guest/s/smiley81/Proj1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug"/>
+				<Option working_dir="/users/guest/s/smiley81/Proj1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="projectOne">
-				<Option output="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/projectOne" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug"/>
+				<Option output="/users/guest/s/smiley81/Proj1/cmake-build-debug/projectOne" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/guest/s/smiley81/Proj1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/."/>
+					<Add directory="/users/guest/s/smiley81/Proj1/."/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -54,20 +54,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectOne"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectOne"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="projectOne/fast">
-				<Option output="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/projectOne" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug"/>
+				<Option output="/users/guest/s/smiley81/Proj1/cmake-build-debug/projectOne" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/guest/s/smiley81/Proj1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/."/>
+					<Add directory="/users/guest/s/smiley81/Proj1/."/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -77,152 +77,182 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectOne/fast"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectOne/fast"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/smiley81/Proj1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/AddAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/AddAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/AddAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/AddAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Automaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Automaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/ColonAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/ColonAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonDashAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/ColonDashAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/ColonDashAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/ColonDashAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommaAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/CommaAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommaAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/CommaAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommentAutomata.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/CommentAutomata.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CommentAutomata.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/CommentAutomata.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/DatalogProgram.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Database.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/DatalogProgram.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Database.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Facts.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/DatalogProgram.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Facts.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/DatalogProgram.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/IDAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/FactsAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/IDAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/FactsAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Left_ParenAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Header.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Left_ParenAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Header.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Lexer.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/IDAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Lexer.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/IDAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/MultiplyAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Interpreter.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/MultiplyAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Interpreter.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Parameter.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Left_ParenAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Parameter.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Left_ParenAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/PeriodAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Lexer.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/PeriodAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Lexer.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Predicate.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/MultiplyAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Predicate.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/MultiplyAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Q_MarkAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Parameter.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Q_MarkAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Parameter.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/QueriesAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/PeriodAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/QueriesAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/PeriodAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Right_ParenAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Predicate.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Right_ParenAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Predicate.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Rule.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Q_MarkAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Rule.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Q_MarkAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/RulesAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/QueriesAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/RulesAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/QueriesAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/SchemesAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Relation.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/SchemesAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Relation.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/StringAutomaton.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Right_ParenAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/StringAutomaton.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Right_ParenAutomaton.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Token.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Rule.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/Token.h">
+		<Unit filename="/users/guest/s/smiley81/Proj1/Rule.h">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/main.cpp">
+		<Unit filename="/users/guest/s/smiley81/Proj1/RulesAutomaton.cpp">
 			<Option target="projectOne"/>
 		</Unit>
-		<Unit filename="/users/guest/s/smiley81/tmp/tmp.SWXdcVGFKk/CMakeLists.txt">
+		<Unit filename="/users/guest/s/smiley81/Proj1/RulesAutomaton.h">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/SchemesAutomaton.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/SchemesAutomaton.h">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/StringAutomaton.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/StringAutomaton.h">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Token.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Token.h">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Tuple.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/Tuple.h">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/main.cpp">
+			<Option target="projectOne"/>
+		</Unit>
+		<Unit filename="/users/guest/s/smiley81/Proj1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

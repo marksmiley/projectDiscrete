@@ -44,8 +44,8 @@ int main(int argc, char** argv) {
         std::cout << "Failure!" << std::endl << error->ToString();
         return 0;
     }
-    //std::cout << "Success!" << std::endl;
-    //std::cout << nowThis.ToString();
+    std::cout << "Success!" << std::endl;
+    std::cout << nowThis.ToString();
 
     Interpreter proj3(nowThis);
     //call interpreter and use nowThis as parameter

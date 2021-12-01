@@ -9,8 +9,9 @@
 
 class Database {
 public:
-    Database(){}
+    //Database(){}
     std::map <std::string, Relation*>& GetMap(){return primDB;}
+    int Count();
 private:
     std::map <std::string, Relation*> primDB; //for primary database
 };
