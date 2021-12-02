@@ -123,13 +123,7 @@ CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o: ../QueriesAutomaton.cpp
 CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o: ../QueriesAutomaton.h
 CMakeFiles/projectOne.dir/QueriesAutomaton.cpp.o: ../Token.h
 
-CMakeFiles/projectOne.dir/Relation.cpp.o: ../Header.h
-CMakeFiles/projectOne.dir/Relation.cpp.o: ../Parameter.h
-CMakeFiles/projectOne.dir/Relation.cpp.o: ../Predicate.h
 CMakeFiles/projectOne.dir/Relation.cpp.o: ../Relation.cpp
-CMakeFiles/projectOne.dir/Relation.cpp.o: ../Relation.h
-CMakeFiles/projectOne.dir/Relation.cpp.o: ../Rule.h
-CMakeFiles/projectOne.dir/Relation.cpp.o: ../Tuple.h
 
 CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/projectOne.dir/Right_ParenAutomaton.cpp.o: ../Right_ParenAutomaton.cpp

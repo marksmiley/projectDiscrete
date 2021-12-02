@@ -26,4 +26,41 @@ add_executable(projectOne
         Left_ParenAutomaton.cpp
         Left_ParenAutomaton.h
         Right_ParenAutomaton.cpp
-        Right_ParenAutomaton.h MultiplyAutomaton.cpp MultiplyAutomaton.h SchemesAutomaton.cpp SchemesAutomaton.h FactsAutomaton.cpp FactsAutomaton.h RulesAutomaton.cpp RulesAutomaton.h QueriesAutomaton.cpp QueriesAutomaton.h IDAutomaton.cpp IDAutomaton.h CommentAutomata.cpp StringAutomaton.cpp StringAutomaton.h CommentAutomata.h AddAutomaton.h AddAutomaton.cpp DatalogProgram.cpp DatalogProgram.h Predicate.cpp Predicate.h Parameter.cpp Parameter.h Rule.cpp Rule.h Database.cpp Database.h Relation.cpp Relation.h Header.cpp Header.h Tuple.cpp Tuple.h Interpreter.cpp Interpreter.h NewHeader.cpp NewHeader.h)
+        Right_ParenAutomaton.h
+        MultiplyAutomaton.cpp
+        MultiplyAutomaton.h
+        SchemesAutomaton.cpp
+        SchemesAutomaton.h
+        FactsAutomaton.cpp
+        FactsAutomaton.h
+        RulesAutomaton.cpp
+        RulesAutomaton.h
+        QueriesAutomaton.cpp
+        QueriesAutomaton.h
+        IDAutomaton.cpp
+        IDAutomaton.h
+        CommentAutomata.cpp
+        StringAutomaton.cpp
+        StringAutomaton.h
+        CommentAutomata.h
+        AddAutomaton.h
+        AddAutomaton.cpp
+        DatalogProgram.cpp
+        DatalogProgram.h
+        Predicate.cpp
+        Predicate.h
+        Parameter.cpp
+        Parameter.h
+        Rule.cpp
+        Rule.h
+        Database.cpp
+        Database.h
+        Relation.cpp
+        Relation.h
+        Header.cpp
+        Header.h
+        Tuple.cpp
+        Tuple.h
+        Interpreter.cpp
+        Interpreter.h
+        )

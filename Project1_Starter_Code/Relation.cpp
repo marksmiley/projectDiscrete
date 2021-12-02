@@ -143,7 +143,7 @@ Tuple Relation::CombineTuples(Tuple t1, Tuple t2) {
     for (int i = 0; i < t2.GetTupleSize(); ++i) {
         bool isMatch = false;
         for (int j = 0; j < int(matchingAttributes.size()); ++j) {
-            if (matchingAttributes.at(j).second != i) {
+            if (matchingAttributes.at(j).second == i) {
                 isMatch = true;
             }
         }

@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /users/guest/s/smiley81/Project1_Starter_Code/cmake-build-deb
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/projectOne.dir/all
+all:
 
 .PHONY : all
 
@@ -63,36 +63,9 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/projectOne.dir/clean
+clean:
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/projectOne.dir
-
-# All Build rule for target.
-CMakeFiles/projectOne.dir/all:
-	$(MAKE) -f CMakeFiles/projectOne.dir/build.make CMakeFiles/projectOne.dir/depend
-	$(MAKE) -f CMakeFiles/projectOne.dir/build.make CMakeFiles/projectOne.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/users/guest/s/smiley81/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target projectOne"
-.PHONY : CMakeFiles/projectOne.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/projectOne.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /users/guest/s/smiley81/Project1_Starter_Code/cmake-build-debug/CMakeFiles 30
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/projectOne.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /users/guest/s/smiley81/Project1_Starter_Code/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/projectOne.dir/rule
-
-# Convenience name for target.
-projectOne: CMakeFiles/projectOne.dir/rule
-
-.PHONY : projectOne
-
-# clean rule for target.
-CMakeFiles/projectOne.dir/clean:
-	$(MAKE) -f CMakeFiles/projectOne.dir/build.make CMakeFiles/projectOne.dir/clean
-.PHONY : CMakeFiles/projectOne.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

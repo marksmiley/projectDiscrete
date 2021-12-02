@@ -1,3 +1,2 @@
 /users/guest/s/smiley81/Project1_Starter_Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /users/guest/s/smiley81/Project1_Starter_Code/cmake-build-debug/CMakeFiles/edit_cache.dir
-/users/guest/s/smiley81/Project1_Starter_Code/cmake-build-debug/CMakeFiles/projectOne.dir

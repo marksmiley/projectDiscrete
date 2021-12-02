@@ -117,7 +117,6 @@ void Interpreter::EvaluateRule(Rule *rule){
     else {
         result = relations.front();
     }
-
     result = result.Project(result.ProjectRule(rule->GetHeadPredicate().getParameters()));
     result.SetRelName(rule->GetHeadPredicate().getInitId());
     database->GetMap()[result.ReturnRelationName()]->Unionize(result);
