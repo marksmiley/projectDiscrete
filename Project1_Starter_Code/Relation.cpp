@@ -83,13 +83,23 @@ Relation Relation::Rename(std::vector<std::string> newNames){
 bool Relation::Unionize(Relation otherRelation){
     Relation newRelation;
     for (auto elem : otherRelation.tuples){
-
         if (tuples.insert(elem).second) {
             AddTuple(elem);
             for ( int i = 0; i < header->HeaderSize(); ++i) {
-            std::cout << "  " << header->at(i) << "=" << elem.GetTuple(i);
+                if (i==0) {
+                    std::cout << "  " << header->at(i) << "=" << elem.GetTuple(i);
+                    if(header->HeaderSize()==1){
+                        std::cout << std::endl;
+                    }
+                }
+                else{
+                    std::cout << ", " << header->at(i) << "=" << elem.GetTuple(i);
+                    if (i == header->HeaderSize()-1){
+                        std::cout << std::endl;
+                    }
+                }
             }
-            std::cout << std::endl;
+            //std::cout << std::endl;
         }
     }
     return true;

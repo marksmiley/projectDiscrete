@@ -22,6 +22,7 @@ std::vector <Rule*> ruleVec = DPpassalong.ReturnRules();
     EvaluateRules(ruleVec);
 
     //evaluating queries
+    std:: cout << "Query Evaluation" << std::endl;
     for(unsigned int i = 0; i < queryVec.size(); ++i){
         Relation newRelation = EvaluatePredicate(queryVec.at(i));
         //std::cout << std::endl << "Query Evaluation" << std::endl;
