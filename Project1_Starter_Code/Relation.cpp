@@ -108,7 +108,6 @@ Relation Relation::Join(Relation otherRelation){
     return newRelation;
 }
 
-
 bool Relation::IsJoinable(Tuple t1, Tuple t2){
     if (!matchingAttributes.empty()){
         for (unsigned int i = 0; i < matchingAttributes.size(); ++i){
@@ -126,7 +125,7 @@ Header* Relation::CombineHeaders(Relation& otherRelation){
     for (unsigned int i = 0; i < headerSize; ++i){
         bool attributeMatch = false;
         for (int j = 0; j < newHeader->HeaderSize(); ++j){
-            if (otherRelation.GetHeader()->at(i)==newHeader->at(j)){
+            if (otherRelation.GetHeader()->at(i)==newHeader->at(j)){ //Loading the matchingAttributes data member
                 attributeMatch = true;
                 matchingAttributes.push_back(std::make_pair(j,i));
             }
@@ -135,9 +134,6 @@ Header* Relation::CombineHeaders(Relation& otherRelation){
             newHeader->AddAttribute(otherRelation.header->at(i));
         }
     }
-    /*for (int i = 0; i < newHeader->HeaderSize(); ++i){
-        std::cout <<"|" << newHeader->ReturnHeaderVec().at(i) << "| ";
-    }*/
     std::cout << std::endl;
     return newHeader;
 }
@@ -145,15 +141,19 @@ Header* Relation::CombineHeaders(Relation& otherRelation){
 Tuple Relation::CombineTuples(Tuple t1, Tuple t2) {
     Tuple newTuple = t1;
     for (int i = 0; i < t2.GetTupleSize(); ++i) {
+        bool isMatch = false;
         for (int j = 0; j < int(matchingAttributes.size()); ++j) {
             if (matchingAttributes.at(j).second != i) {
-                newTuple.AddToTuple(t2.GetTuple(i));
+                isMatch = true;
             }
+        }
+        if(!isMatch){
+            newTuple.AddToTuple(t2.GetTuple(i));
         }
     }
     return newTuple;
 }
-
+//newTuple.AddToTuple(t2.GetTuple(i));
 
 void Relation::ToStringQuery() {
     if (tuples.empty()) {

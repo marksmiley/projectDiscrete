@@ -78,14 +78,11 @@ void Interpreter::EvaluateRules(std::vector<Rule*> ruleVec){
         preCount = database->Count();
         for (unsigned int i = 0; i < ruleVec.size(); ++i) {
             if (i == 0) {
-                //std::cout << std::endl;
                 std::cout << ruleVec.at(i)->ToString();
                 std::cout << std::endl;
             }
             else {
-                //std::cout << std::endl;
                 std::cout << ruleVec.at(i)->ToString();
-                //std::cout << std::endl;
             }
             EvaluateRule(ruleVec.at(i));
         }
@@ -106,6 +103,7 @@ void Interpreter::EvaluateRule(Rule *rule){
     for (unsigned int i = 0; i < rightPreds.size(); i++){//create loop and evaluate the predicate
         relations.push_back(EvaluatePredicate(rightPreds.at(i)));
     }
+
     Relation result;
     if (relations.size() != 1) {
         for (unsigned int i = 0; i < relations.size() - 1; ++i) {
@@ -118,8 +116,8 @@ void Interpreter::EvaluateRule(Rule *rule){
     }
     else {
         result = relations.front();
-        //result.ToStringRule();
     }
+
     result = result.Project(result.ProjectRule(rule->GetHeadPredicate().getParameters()));
     result.SetRelName(rule->GetHeadPredicate().getInitId());
     database->GetMap()[result.ReturnRelationName()]->Unionize(result);

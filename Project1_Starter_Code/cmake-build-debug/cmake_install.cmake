@@ -1,4 +1,4 @@
-# Install script for directory: /users/guest/s/smiley81/Proj1
+# Install script for directory: /users/guest/s/smiley81/Project1_Starter_Code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/users/guest/s/smiley81/Proj1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/users/guest/s/smiley81/Project1_Starter_Code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
