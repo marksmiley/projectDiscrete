@@ -1,0 +1,3 @@
+/Users/marcus/Desktop/School/discretestOfStructures/projectDiscrete/Project1_Starter_Code/cmake-build-debug-system/CMakeFiles/rebuild_cache.dir
+/Users/marcus/Desktop/School/discretestOfStructures/projectDiscrete/Project1_Starter_Code/cmake-build-debug-system/CMakeFiles/edit_cache.dir
+/Users/marcus/Desktop/School/discretestOfStructures/projectDiscrete/Project1_Starter_Code/cmake-build-debug-system/CMakeFiles/projectOne.dir
