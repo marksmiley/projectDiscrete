@@ -84,6 +84,7 @@ void Interpreter::EvaluateRules(std::vector<Rule*> ruleVec){
             }
             else {
                 std::cout << ruleVec.at(i)->ToString();
+                std::cout << std::endl;
             }
             EvaluateRule(ruleVec.at(i));
         }

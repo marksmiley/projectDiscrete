@@ -144,7 +144,7 @@ Header* Relation::CombineHeaders(Relation& otherRelation){
             newHeader->AddAttribute(otherRelation.header->at(i));
         }
     }
-    std::cout << std::endl;
+    //std::cout << std::endl;
     return newHeader;
 }
 
