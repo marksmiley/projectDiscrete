@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/projectOne.dir/Left_ParenAutomaton.cpp.o"
   "CMakeFiles/projectOne.dir/Lexer.cpp.o"
   "CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.o"
+  "CMakeFiles/projectOne.dir/NewHeader.cpp.o"
   "CMakeFiles/projectOne.dir/Parameter.cpp.o"
   "CMakeFiles/projectOne.dir/PeriodAutomaton.cpp.o"
   "CMakeFiles/projectOne.dir/Predicate.cpp.o"

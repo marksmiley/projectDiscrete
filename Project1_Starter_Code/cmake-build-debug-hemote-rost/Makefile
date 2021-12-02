@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /users/guest/s/smiley81/Proj1
+CMAKE_SOURCE_DIR = /users/guest/s/smiley81/Project1_Starter_Code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost
+CMAKE_BINARY_DIR = /users/guest/s/smiley81/Project1_Starter_Code/cmake-build-debug-hemote-rost
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost/CMakeFiles /users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /users/guest/s/smiley81/Project1_Starter_Code/cmake-build-debug-hemote-rost/CMakeFiles /users/guest/s/smiley81/Project1_Starter_Code/cmake-build-debug-hemote-rost/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /users/guest/s/smiley81/Proj1/cmake-build-debug-hemote-rost/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /users/guest/s/smiley81/Project1_Starter_Code/cmake-build-debug-hemote-rost/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -500,6 +500,33 @@ MultiplyAutomaton.s: MultiplyAutomaton.cpp.s
 MultiplyAutomaton.cpp.s:
 	$(MAKE) -f CMakeFiles/projectOne.dir/build.make CMakeFiles/projectOne.dir/MultiplyAutomaton.cpp.s
 .PHONY : MultiplyAutomaton.cpp.s
+
+NewHeader.o: NewHeader.cpp.o
+
+.PHONY : NewHeader.o
+
+# target to build an object file
+NewHeader.cpp.o:
+	$(MAKE) -f CMakeFiles/projectOne.dir/build.make CMakeFiles/projectOne.dir/NewHeader.cpp.o
+.PHONY : NewHeader.cpp.o
+
+NewHeader.i: NewHeader.cpp.i
+
+.PHONY : NewHeader.i
+
+# target to preprocess a source file
+NewHeader.cpp.i:
+	$(MAKE) -f CMakeFiles/projectOne.dir/build.make CMakeFiles/projectOne.dir/NewHeader.cpp.i
+.PHONY : NewHeader.cpp.i
+
+NewHeader.s: NewHeader.cpp.s
+
+.PHONY : NewHeader.s
+
+# target to generate assembly for a file
+NewHeader.cpp.s:
+	$(MAKE) -f CMakeFiles/projectOne.dir/build.make CMakeFiles/projectOne.dir/NewHeader.cpp.s
+.PHONY : NewHeader.cpp.s
 
 Parameter.o: Parameter.cpp.o
 
@@ -930,6 +957,9 @@ help:
 	@echo "... MultiplyAutomaton.o"
 	@echo "... MultiplyAutomaton.i"
 	@echo "... MultiplyAutomaton.s"
+	@echo "... NewHeader.o"
+	@echo "... NewHeader.i"
+	@echo "... NewHeader.s"
 	@echo "... Parameter.o"
 	@echo "... Parameter.i"
 	@echo "... Parameter.s"

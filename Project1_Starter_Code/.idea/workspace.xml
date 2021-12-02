@@ -7,18 +7,63 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug-System" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="System" />
+      <configuration PROFILE_NAME="Debug-Hemote Rost" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Hemote Rost" />
+      <configuration PROFILE_NAME="debug LOCAL" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="System" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b383ddae-2823-4d14-a3a1-ac70ebdc7504" name="Changes" comment="Added commas to the output of Rule Evaluation">
+    <list default="true" id="b383ddae-2823-4d14-a3a1-ac70ebdc7504" name="Changes" comment="changed the placement of an 'endl' line">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpreter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Relation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Relation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-system/CMakeFiles/projectOne.dir/Interpreter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-system/CMakeFiles/projectOne.dir/Interpreter.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-system/CMakeFiles/projectOne.dir/Relation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-system/CMakeFiles/projectOne.dir/Relation.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/answer1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/answer2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/answer3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/answer5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/answer6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/answer7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/answer8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/input1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/input2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/input3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/input5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/input6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/input7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-100/input8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/answer0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/answer1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/answer2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/answer3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/answer4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/answer5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/answer6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/answer7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/input0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/input1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/input2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/input3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/input4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/input5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/input6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4PassOffCases/4-80/input7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/3.16.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/3.16.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/CMakeFiles/projectOne.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/Project1_Starter_Code.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/Project1_Starter_Code.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-hemote-rost/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-system/CMakeFiles/projectOne.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-system/CMakeFiles/projectOne.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-system/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-system/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-system/projectOne" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-system/projectOne" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testCases2/in21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testCases2/in21.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +74,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-System" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Hemote Rost" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -58,12 +103,12 @@
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassOff2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="input2.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/Lab4PassOffCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project1_Starter_Code" TARGET_NAME="projectOne" CONFIG_NAME="Debug-System" RUN_TARGET_PROJECT_NAME="Project1_Starter_Code" RUN_TARGET_NAME="projectOne">
+    <configuration name="PassOff2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="input2.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/Lab4PassOffCases" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project1_Starter_Code" TARGET_NAME="projectOne" CONFIG_NAME="Debug-Hemote Rost" RUN_TARGET_PROJECT_NAME="Project1_Starter_Code" RUN_TARGET_NAME="projectOne">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="in21.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/testCases2" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project1_Starter_Code" TARGET_NAME="projectOne" CONFIG_NAME="Debug-System" RUN_TARGET_PROJECT_NAME="Project1_Starter_Code" RUN_TARGET_NAME="projectOne">
+    <configuration name="Test1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="in21.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/testCases2" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project1_Starter_Code" TARGET_NAME="projectOne" CONFIG_NAME="Debug-Hemote Rost" RUN_TARGET_PROJECT_NAME="Project1_Starter_Code" RUN_TARGET_NAME="projectOne">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -140,7 +185,7 @@
       <workItem from="1638318000045" duration="1810000" />
       <workItem from="1638463599857" duration="281000" />
       <workItem from="1638463946399" duration="9213000" />
-      <workItem from="1638476081182" duration="7990000" />
+      <workItem from="1638476081182" duration="9770000" />
     </task>
     <task id="LOCAL-00001" summary="Hopefully this works">
       <created>1638394048680</created>
@@ -184,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638485075101</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changed the placement of an 'endl' line">
+      <created>1638485557093</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638485557093</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +260,8 @@
     <MESSAGE value="fixed a small type in CombineTuples after a good lunch." />
     <MESSAGE value="fixed a small typo in CombineTuples after a good lunch." />
     <MESSAGE value="Added commas to the output of Rule Evaluation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added commas to the output of Rule Evaluation" />
+    <MESSAGE value="changed the placement of an 'endl' line" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the placement of an 'endl' line" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -237,6 +290,11 @@
           <url>file://$PROJECT_DIR$/Interpreter.cpp</url>
           <line>112</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Interpreter.cpp</url>
+          <line>100</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
